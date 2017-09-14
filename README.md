@@ -10,5 +10,4 @@ It is tested on a synthetic signal with clear changepoints and a set of data wit
 
 Main reference is: "[Bayesian Online Changepoint Detection](https://arxiv.org/abs/0710.3742)", RP Adam, D MacKay 2007
 
-The authors had a Matlab implementation [here](http://hips.seas.harvard.edu/content/bayesian-online-changepoint-detection),
-but it does not benefit from the online capability of the algorithm, and requires a large (n_T x n_T) array in memory. It's re-written here so that data point can be fed in one by one. Default conjugate prior used is normal-inverse-gamma which is suitable for gaussian process with unknown mean and variance.
+The authors had a Matlab implementation [here](http://hips.seas.harvard.edu/content/bayesian-online-changepoint-detection), which is what my implementation is based on. But it does not benefit from the online capability of the algorithm, and requires a large (n_T x n_T) array in memory. It's re-written here so that data point can be fed in one by one. Default conjugate prior used is normal-inverse-gamma which is suitable for gaussian process with unknown mean and variance.
