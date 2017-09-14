@@ -1,5 +1,6 @@
 # Change-Point-Detection
-Bayesian Online Change Point Detection for 1-dimensional time series, in VBA.
+Bayesian Online Change Point Detection for 1-dimensional time series, implemented in VBA.
+[Change points found in syntehtic data](chgpt.jpg)
 
 The algorithm performs Bayesian changepoint detection in an online fashion on univariate time series. The core idea is to recursively calculate the posterior probability of "run lengths" as each new data point arrives. Run length is defined as the time since last changepoint occured.
 
