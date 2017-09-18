@@ -1,6 +1,6 @@
 # Change-Point-Detection
 Bayesian Online Change Point Detection for 1-dimensional time series, implemented in VBA.
-Requires: [mChgPt.bas](mChgPt.bas), [modMath.bas](Scientific-Toolkit/Modules/modMath.bas)
+Requires: [mChgPt.bas](mChgPt.bas), [modMath.bas](../../../Scientific-Toolkit/Modules/modMath.bas)
 
 ![Change points found in syntehtic data](chgpt.jpg)
 
