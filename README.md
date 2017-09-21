@@ -8,7 +8,7 @@ The algorithm performs Bayesian changepoint detection in an online fashion on un
 
 One shortcoming of the method is that the probability density function of the signal and its conjugate prior needs to be specificed, which may not be obvious in some cases. Assumptions also need to be made on the decay rate of run lengths.
 
-Simply import mChtPt.bas if you want to use this module. An Excel file [Chg_Pt_Demo.xlsm](/Chg_Pt_Demo.xlsm) is included to show what it looks like.
+Simply import [mChgPt.bas](mChgPt.bas) if you want to use this module. An Excel file [Chg_Pt_Demo.xlsm](Chg_Pt_Demo.xlsm) is included to show what it looks like.
 It is tested on a synthetic signal with clear changepoints and a set of data with less obvious features. See the comments in the Excel file for a step by step guide on calling from this module.
 
 Main reference is: "[Bayesian Online Changepoint Detection](https://arxiv.org/abs/0710.3742)", RP Adam, D MacKay 2007
